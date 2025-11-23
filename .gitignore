@@ -205,3 +205,30 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+# Ignorer l'environnement virtuel
+venv/
+
+# Ignorer les fichiers compilés Python
+__pycache__/
+*.pyc
+
+# Ignorer les logs et fichiers temporaires
+*.log
+*.tmp
+
+# Ignorer le fichier data.json (historique capteurs)
+data.json
+
+# Ignorer les fichiers Word (rapports)
+*.docx
+
+# Ignorer les fichiers ZIP
+*.zip
+
+# Ignorer les images générées automatiquement
+*.png
+
+# Ignorer les fichiers système
+.DS_Store
+Thumbs.db
+
